@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <style>
+        h1,
+        h2,
+        h3 {
+            font-family: Arial;
+        }
+
+        h1 {
+            color: #ff00004b;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #ff00004b;
+        }
+
+        ul {
+            font-size: 18px;
+            color: #ff00004b;
+        }
+
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .row {
+            padding: 20px;
+        }
+
+        img {
+            vertical-align: top;
+            height: auto;
+            width: 100%;
+            object-fit: contain;
+        }
+    </style>
+    <title>Floofle's Image Search</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <h2> Uplifting Bunnies</h2>
+                <img src="piratBun.JPG" alt="pirate bunny">
+
+            </div>
+            <div class="col-6">
+                <img src="logo.JPG" alt="Floogle">
+                <form action="https://www.google.com/search" method=GET>
+                    <input type="hidden" name="tbm" value="isch">
+                    <div class="form-group">
+                        <label for="searchfield1">Floofle Search</label>
+                        <input type="text" class="form-control" id="searchtext" aria-describedby="searchHelp" name="q"
+                            placeholder="into the woods">
+                        <small id="searchHelp" class="form-text text-muted">Image
+                            Search</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Floofle
+                        Search</button>
+                </form>
+
+            </div>
+            <div class="col-3">
+                <ul>
+                    <h2> Search Options </h2>
+                    <li> <a href="index.html">Text</a></li>
+                    <li> <a href="pageone.html">Image</a></li>
+                    <li> <a href="pagetwo.html">Advanced</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
